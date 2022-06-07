@@ -1,4 +1,4 @@
-print('Bem Vindo a Loja do Douglas Reis')
+print('Bem Vindo a Loja do Douglas Reis LTDA')
 	
 #Valor3394180 optei por entrada flutuante pois se trata de dinheiro e pode ter centavos no preço do produto
 valor3394180 = float(input('Entre com valor do produto R$ '))
@@ -18,6 +18,6 @@ else:
 sdesconto =  valor3394180 * quantidade
 # valor com desconto seria o valor sem desconto multiplicado pelo desconto menos sem desconto
 cdesconto = sdesconto - (sdesconto * desconto)
-#o desconto multipliquei o valor do desconto por 100 e limitei as casa pra nao fica os zeros depois da virgula
+#o desconto multipliquei o valor do desconto por 100 e limitei as casa pra nao fica os zeros depois da virgula1
 print('O valor sem desconto foi R${:.2f}'. format(sdesconto))
 print('O valr com desconto foi R${:.2f} ( Desconto {:.0f} %)'. format(cdesconto, desconto * 100))
